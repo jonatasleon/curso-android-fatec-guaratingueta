@@ -10,49 +10,52 @@
     android:orientation="vertical"
     tools:context="com.jonatasleon.atividadeii.MainActivity">
 
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Primeiro número"
-        android:inputType="numberDecimal"
-        android:id="@+id/n1" />
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:inputType="numberDecimal"
-        android:hint="Segundo número"
-        android:id="@+id/n2" />
+        android:inputType="number"
+        android:ems="10"
+        android:hint="@string/hint_primeiro_numero"
+        android:id="@+id/edt_n1" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:hint="@string/hint_segundo_numero"
+        android:id="@+id/edt_n2" />
 
     <Button
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="+"
-        android:id="@+id/soma" />
+        android:id="@+id/btn_soma" />
 
     <Button
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="-"
-        android:id="@+id/subtracao" />
+        android:id="@+id/btn_subtracao" />
 
     <Button
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="*"
-        android:id="@+id/multiplicacao" />
+        android:id="@+id/btn_multiplicacao" />
 
     <Button
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="/"
-        android:id="@+id/divisao" />
+        android:id="@+id/btn_divisao" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="@null"
-        android:id="@+id/res" />
-
+        android:id="@+id/tv_resultado"
+        android:layout_gravity="center_horizontal" />
 </LinearLayout>
