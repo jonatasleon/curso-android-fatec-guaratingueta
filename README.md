@@ -16,3 +16,12 @@ Curso de Android - FATEC GT
  - Versões do Android;
  - Transição entre Activities;
  - Layout (LinearLayout e RelativeLayout);
+
+3º dia - 14/05/2016 - [Slides](https://github.com/jonatasleon/curso-android-fatecgt/blob/master/slides/Aula%2003.pdf)
+---
+
+- ListView
+- Spinner
+- Adapter
+- AlertDialog
+- DatePickerDialog
