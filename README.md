@@ -25,3 +25,9 @@ Curso de Android - FATEC GT
 - Adapter
 - AlertDialog
 - DatePickerDialog
+
+4º dia - [Slides](https://github.com/jonatasleon/curso-android-fatecgt/blob/master/slides/Aula%2004.pdf)
+---
+
+- SharedPreferences
+- SQLite
