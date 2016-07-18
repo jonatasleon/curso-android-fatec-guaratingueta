@@ -1,4 +1,4 @@
-Curso de Android - FATEC GT
+Curso de Android - FATEC Guaratinguetá
 ===
 
 1º dia - 30/04/2016 - [Slides](http://slides.com/jonatasleon/android-fatec-aula-01/fullscreen)
